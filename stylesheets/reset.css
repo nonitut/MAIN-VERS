@@ -2,8 +2,8 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 a { color: inherit;
 }
-HEAD
-h1, h2, h3, p, ul,ol, blockquote, div, img { width: 700px; margin: 0 auto;
+
+h1, h2, h3, p, ul,ol, blockquote, div, img, hr { width: 700px; margin: 0 auto;
 
 h1, h2, h3, p, ul, blockquote, div, img, hr { width: 700px; margin: 0 auto;
 }
