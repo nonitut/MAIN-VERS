@@ -5,8 +5,6 @@ a { color: inherit;
 
 h1, h2, h3, p, ul,ol, blockquote, div, img, hr { width: 700px; margin: 0 auto;
 
-h1, h2, h3, p, ul, blockquote, div, img, hr { width: 700px; margin: 0 auto;
-}
 h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
 }
 h1 { margin-top: 67px; font-size: 38px; line-height: 45px;
@@ -100,7 +98,7 @@ nav li{
   margin: 0px 0;
   line-height: 20px;
 }
-.link{
+/*.link{
   color: blue;
   text-decoration: none;
 }
@@ -121,3 +119,4 @@ nav li{
   margin-top: 30px;
   margin-bottom:30px;
 }
+*/
