@@ -2,11 +2,10 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 a { color: inherit;
 }
-<<<<<<< HEAD
+HEAD
 h1, h2, h3, p, ul,ol, blockquote, div, img { width: 700px; margin: 0 auto;
-=======
+
 h1, h2, h3, p, ul, blockquote, div, img, hr { width: 700px; margin: 0 auto;
->>>>>>> b82d6bf930cf71b3715d1338264fe0be58300580
 }
 h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
 }
@@ -46,13 +45,13 @@ p, blockquote, li {
 blockquote {
   font-style: italic;
 }
-<<<<<<< HEAD
+
 img {  width: 300px;
   margin: 30px auto 0;
   padding: 0;
-=======
+
 img {  width: 300px; margin: 0px auto 0; padding: 0;
->>>>>>> b82d6bf930cf71b3715d1338264fe0be58300580
+
 }
 img + h2 { margin-top: 79px;
 }
@@ -65,27 +64,7 @@ h2 + img { margin-top: 82px;
 h3 + img { margin-top: 81px;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-div{
 
-}
-=======
-
-
-
->>>>>>> Stashed changes
-=======
-
-
-
->>>>>>> Stashed changes
-=======
-
-
-
->>>>>>> Stashed changes
 nav{
 background: #F9F9F9; /* цвет фона */
 width: 400px; /* Ширина блока 300 */
@@ -121,14 +100,6 @@ nav li{
   margin: 0px 0;
   line-height: 20px;
 }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 .link{
   color: blue;
   text-decoration: none;
@@ -150,5 +121,3 @@ nav li{
   margin-top: 30px;
   margin-bottom:30px;
 }
-}
->>>>>>> Stashed changes
