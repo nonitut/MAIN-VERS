@@ -1,0 +1,154 @@
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'PT Sans', sans-serif;
+}
+a { color: inherit;
+}
+<<<<<<< HEAD
+h1, h2, h3, p, ul,ol, blockquote, div, img { width: 700px; margin: 0 auto;
+=======
+h1, h2, h3, p, ul, blockquote, div, img, hr { width: 700px; margin: 0 auto;
+>>>>>>> b82d6bf930cf71b3715d1338264fe0be58300580
+}
+h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
+}
+h1 { margin-top: 67px; font-size: 38px; line-height: 45px;
+}
+h1 + p { margin-top: 8px;
+   font-family: 'PT Sans Caption',
+   sans-serif;
+   font-size: 22px;
+   line-height: 32px;
+   color: rgba(0,0,0,.4);
+}
+h1 + p + p { margin-top: 30px;
+}
+h2 { margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, .8);
+}
+h2 + p,
+h2 + blockquote { margin-top: 7px;
+}
+h3 { margin-top: 36px;
+  font-size: 28px;
+   line-height: 34px;
+   color: rgba(0, 0, 0, .8);
+}
+h3 + p,
+h3 + blockquote {
+  margin-top: 6px;
+}
+p, blockquote, li {
+  margin-top: 29px;
+  font-size: 20px;
+  line-height: 34px;
+}
+blockquote {
+  font-style: italic;
+}
+<<<<<<< HEAD
+img {  width: 300px;
+  margin: 30px auto 0;
+  padding: 0;
+=======
+img {  width: 300px; margin: 0px auto 0; padding: 0;
+>>>>>>> b82d6bf930cf71b3715d1338264fe0be58300580
+}
+img + h2 { margin-top: 79px;
+}
+img + p,
+img + blockquote,
+img + ul { margin-top: 77px;
+}
+h2 + img { margin-top: 82px;
+}
+h3 + img { margin-top: 81px;
+}
+
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+div{
+
+}
+=======
+
+
+
+>>>>>>> Stashed changes
+=======
+
+
+
+>>>>>>> Stashed changes
+=======
+
+
+
+>>>>>>> Stashed changes
+nav{
+background: #F9F9F9; /* цвет фона */
+width: 400px; /* Ширина блока 300 */
+/* position: fixed;*/ /* Позиция привзана к точке на экране и не меняет свою позицию */
+top: 100px; /* отступ сверху */
+left: 10px; /* отступ слева */
+padding: 10px; /*  внутренний отступ */
+box-sizing: border-box; /* Говорит браузеру учитывать любые границы и внутренние отступы для высоты и ширины эл */
+opacity: .1; /* Полупрозрачность элемента */
+transition: all .5s ease; /* Появление */
+overflow: auto;
+
+}
+nav:hover {
+  opacity: 1;
+  transition: all .1s ease;
+} /* плавное появление при наведении */
+
+nav p{
+margin: 0; /* внешний отступ отсутсвует */
+font-weight: bold; /* текст вышеден жирностью  */
+font-size: 14px!important; /* размер шрифта */
+} /*  */
+nav a{ /* прописиваем для ссылки */
+  text-decoration: none;
+  font-size: 12px!important;
+}
+nav ul{
+  list-style-type: none;
+  width: 100%;
+}
+nav li{
+  margin: 0px 0;
+  line-height: 20px;
+}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+.link{
+  color: blue;
+  text-decoration: none;
+}
+.link.active{
+  font-weight: bold;
+}
+.button{
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  background-color: #fff
+  border: 1px solid gray;
+}
+.button + .button {
+  margin-left: 20px;
+}
+.containerbutton{
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+}
+>>>>>>> Stashed changes
