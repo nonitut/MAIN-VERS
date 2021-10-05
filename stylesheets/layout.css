@@ -10,15 +10,16 @@ a{
   height: 40px; /* высота  */
   padding-top: 10px; /* отступ с верху */
   flex-direction: row;
-  box-shadow: 0px 5px 20px -10px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 20px -10px rgba(34, 60, 80, 0.2);/* тень */
 }
 
 
 .logo{
   text-decoration: none;
   color: #aaa;
-  width: auto;
+  width: 500px;
   height: 50%;
+
 }
 .logotipe{
   text-decoration: none;
