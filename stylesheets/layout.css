@@ -17,8 +17,7 @@ a{
 .logo{
   text-decoration: none;
   color: #aaa;
-  width: 500px;
-  height: 30%;
+  max-width: 500px;
 
 }
 .logotipe{
