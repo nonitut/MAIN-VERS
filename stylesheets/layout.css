@@ -15,7 +15,7 @@ a{
 }
 
 .menubar img{
-  width: auto;
+  width: 20%;
   height: 20%;
 }
 
@@ -24,7 +24,6 @@ a{
 .logo{
   text-decoration: none;
   color: #aaa;
-  max-width: 500px;
 
 }
 .logotipe{
