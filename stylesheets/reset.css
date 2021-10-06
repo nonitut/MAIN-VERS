@@ -89,10 +89,12 @@ margin: 0; /* внешний отступ отсутсвует */
 font-weight: bold; /* текст вышеден жирностью  */
 font-size: 14px!important; /* размер шрифта */
 } /*  */
+
 nav a{ /* прописиваем для ссылки */
   text-decoration: none;
   font-size: 12px!important;
 }
+
 nav ul{
   list-style-type: none;
   width: 100%;
