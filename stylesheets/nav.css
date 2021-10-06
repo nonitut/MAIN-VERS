@@ -2,7 +2,7 @@ nav{
 background: #F9F9F9; /* цвет фона */
 width: 300px; /* Ширина блока 300 */
 position: fixed; /* Позиция привзана к точке на экране и не меняет свою позицию */
-top: 70px; /* отступ сверху */
+top: 50px; /* отступ сверху */
 left: 0px; /* отступ слева */
 padding: 10px; /*  внутренний отступ */
 box-sizing: border-box; /* Говорит браузеру учитывать любые границы и внутренние отступы для высоты и ширины эл */
@@ -25,7 +25,8 @@ word-wrap: break-word;
 
 nav a{ /* прописиваем для ссылки */
   text-decoration: none;
-  font-size: 10px!important;
+  font-size: 20px!important;
+  padding-bottom: 10px; 
 }
 
 nav ul{
