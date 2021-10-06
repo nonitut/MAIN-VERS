@@ -20,6 +20,7 @@ nav p{
 margin: 0px; /* внешний отступ отсутсвует */
 font-weight: bold; /* текст вышеден жирностью  */
 font-size: 14px!important; /* размер шрифта */
+word-wrap: break-word;
 } /*  */
 
 nav a{ /* прописиваем для ссылки */
@@ -36,6 +37,7 @@ nav li{
   line-height: 10px;
   text-decoration: none;
   padding-top: 10px;
+
 }
 
 nav {
