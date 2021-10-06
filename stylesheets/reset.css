@@ -5,6 +5,9 @@ a { color: inherit;
 
 h1, h2, h3, p, ul,ol, blockquote, div, img, hr { width: 700px; margin: 0 auto;
 
+h1, h2, h3, p, ul,ol, blockquote, div,{
+   margin: 20px auto;
+}
 h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
 }
 h1 { margin-top: 67px; font-size: 38px; line-height: 45px;
