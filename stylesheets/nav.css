@@ -26,7 +26,7 @@ word-wrap: break-word;
 nav a{ /* прописиваем для ссылки */
   text-decoration: none;
   font-size: 20px!important;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 nav ul{
@@ -60,4 +60,9 @@ nav a{
 }
 .sidebar{
  padding-left: 0px;
+}
+.table{
+  word-wrap: break-word;
+  padding: 5px;
+  width: 300px;
 }
