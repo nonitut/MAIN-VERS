@@ -2,11 +2,9 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 a { color: inherit;
 }
-HEAD
-h1, h2, h3, p, ul,ol, blockquote, div, img { width: 700px; margin: 0 auto;
 
-h1, h2, h3, p, ul, blockquote, div, img, hr { width: 700px; margin: 0 auto;
-}
+h1, h2, h3, p, ul,ol, blockquote, div, img, hr { width: 700px; margin: 0 auto;
+
 h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
 }
 h1 { margin-top: 67px; font-size: 38px; line-height: 45px;
@@ -47,7 +45,7 @@ blockquote {
 }
 
 img {  width: 300px;
-  margin: 30px auto 0;
+  margin: 0px auto 0;
   padding: 0;
 
 img {  width: 300px; margin: 0px auto 0; padding: 0;
@@ -67,7 +65,7 @@ h3 + img { margin-top: 81px;
 
 nav{
 background: #F9F9F9; /* цвет фона */
-width: 400px; /* Ширина блока 300 */
+width: 300px; /* Ширина блока 300 */
 /* position: fixed;*/ /* Позиция привзана к точке на экране и не меняет свою позицию */
 top: 100px; /* отступ сверху */
 left: 10px; /* отступ слева */
@@ -100,7 +98,7 @@ nav li{
   margin: 0px 0;
   line-height: 20px;
 }
-.link{
+/*.link{
   color: blue;
   text-decoration: none;
 }
@@ -121,3 +119,4 @@ nav li{
   margin-top: 30px;
   margin-bottom:30px;
 }
+*/

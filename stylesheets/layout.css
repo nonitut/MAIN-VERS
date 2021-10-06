@@ -7,18 +7,19 @@ a{
   display: flex; /*  Эллементы встают в ряд, и заполняют пространство */
   justify-content: space-between; /* расстояние между соседними эллементами одинаковые */
   align-items: center; /* выраснивание эллемента внутри контейнера */
-  height: 40px; /* высота  */
-  padding-top: 10px; /* отступ с верху */
+    height: 40px;/* высота  */
+ /*  padding-top: 10px; отступ с верху */
   flex-direction: row;
-  box-shadow: 0px 5px 20px -10px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 20px -10px rgba(34, 60, 80, 0.2);/* тень */
+  border-bottom: 1px solid #aaa;
 }
-
-
+.menubar img{
+  width: 40%;
+  height: 40%;
+}
 .logo{
   text-decoration: none;
   color: #aaa;
-  width: auto;
-  height: 50%;
 }
 .logotipe{
   text-decoration: none;
