@@ -1,4 +1,4 @@
-.nav {
+ nav {
 background: #222222
   width: 300px;
   position: fixed;
@@ -11,7 +11,7 @@ background: #222222
   height: 100vh;
   display: block;
 }
-.nav a{
+nav a{
   text-decoration: none;
 }
 .sidebar{
