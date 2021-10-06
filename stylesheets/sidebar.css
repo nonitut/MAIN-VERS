@@ -8,7 +8,7 @@ background: #222222
   box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: scroll;
-  height: 100vh;
+  height: 110vh;
   display: block;
 }
 nav a{
