@@ -50,7 +50,7 @@ nav {
  box-sizing: border-box;
  overflow-x: hidden;
  overflow-y: scroll;
- height: 100vh;
+ height: 80vh;
  display: block;
  padding-bottom: 30px;
 }
