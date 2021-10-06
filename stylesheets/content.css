@@ -128,23 +128,4 @@ nav li{
   margin-bottom:30px;
 }
 */
-  nav {
-   background: #222222
-   width: 300px;
-   position: fixed;
-   top: 100px;
-   left: 10px;
-   padding: 10px;
-   box-sizing: border-box;
-   overflow-x: hidden;
-   overflow-y: scroll;
-   height: 110vh;
-   display: block;
- }
- nav a{
-   text-decoration: none;
- }
- .sidebar{
-   padding-left: 0px;
-   width: 300px;
- }
+  
