@@ -2,8 +2,8 @@ nav{
 background: #F9F9F9; /* цвет фона */
 width: 300px; /* Ширина блока 300 */
 position: fixed; /* Позиция привзана к точке на экране и не меняет свою позицию */
-top: 100px; /* отступ сверху */
-left: 10px; /* отступ слева */
+top: 70px; /* отступ сверху */
+left: 0px; /* отступ слева */
 padding: 10px; /*  внутренний отступ */
 box-sizing: border-box; /* Говорит браузеру учитывать любые границы и внутренние отступы для высоты и ширины эл */
 opacity: .1; /* Полупрозрачность элемента */
@@ -17,14 +17,14 @@ nav:hover {
 } /* плавное появление при наведении */
 
 nav p{
-margin: 5px; /* внешний отступ отсутсвует */
+margin: 0px; /* внешний отступ отсутсвует */
 font-weight: bold; /* текст вышеден жирностью  */
 font-size: 14px!important; /* размер шрифта */
 } /*  */
 
 nav a{ /* прописиваем для ссылки */
   text-decoration: none;
-  font-size: 12px!important;
+  font-size: 10px!important;
 }
 
 nav ul{
@@ -33,7 +33,7 @@ nav ul{
 }
 nav li{
   margin: 0px 0;
-  line-height: 20px;
+  line-height: 10px;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ nav {
  position: fixed;
  top: 100px;
  left: 10px;
- padding: 10px;
+ padding: 5px;
  box-sizing: border-box;
  overflow-x: hidden;
  overflow-y: scroll;
