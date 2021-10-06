@@ -4,3 +4,4 @@
 @import "content.css"; /* контент / содержимое  */
 @import "sidebar.css"; /* панель - боковая / верхней  */
 /* @import "filename.css";  */
+@import "nav.css";
