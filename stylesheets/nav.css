@@ -57,7 +57,7 @@ nav {
  overflow-y: scroll;
  height: 98vh;
  display: block;
- padding-bottom: 30px;
+ padding-bottom: 10px;
 }
 nav a{
  text-decoration: none;
