@@ -4,6 +4,7 @@ a { color: inherit;
 }
 
 h1, h2, h3, p, ul,ol, blockquote, div, img, hr { width: 700px; margin: 0 auto;
+}
 
 h1, h2, h3, p, ul,ol, blockquote, div,{
    margin: 20px auto;
@@ -125,3 +126,4 @@ nav li{
   margin-bottom:30px;
 }
 */
+h1{}
