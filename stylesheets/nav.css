@@ -21,7 +21,7 @@ margin: 0px; /* внешний отступ отсутсвует */
 font-weight: bold; /* текст вышеден жирностью  */
 font-size: 14px!important; /* размер шрифта */
 word-wrap: break-word;
-padding-left: 15px;
+padding-left: 20px;
 } /*  */
 
 nav a{ /* прописиваем для ссылки */
@@ -29,7 +29,7 @@ nav a{ /* прописиваем для ссылки */
   font-size: 12px!important;
   padding-bottom: 10px;
   word-wrap: break-word;
-  padding-left:  15px;
+  padding-left:  20px;
 
 }
 
