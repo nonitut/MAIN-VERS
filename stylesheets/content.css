@@ -89,8 +89,3 @@ h3 + img { margin-top: 81px;
   margin-bottom:30px;
 }
 */
-
-#section {
-  display: flex;
-  flex-direction: column;
-}
