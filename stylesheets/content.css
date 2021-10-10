@@ -93,10 +93,11 @@ h3 + img { margin-top: 81px;
 section{
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
 }
 section div{
   width: 50%
-  
+
 }
 .sectionmain{
   width: 1200px; margin: 0 auto;
