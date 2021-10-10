@@ -94,3 +94,6 @@ section{
   display: flex;
   justify-content: space-between;
 }
+section div{
+  width: 50%
+}
