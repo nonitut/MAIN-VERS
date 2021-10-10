@@ -96,6 +96,7 @@ section{
 }
 section div{
   width: 50%
+  padding: 20px;
 }
 .sectionmain{
   width: 1200px; margin: 0 auto;
