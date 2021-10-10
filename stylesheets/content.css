@@ -96,7 +96,7 @@ section{
 }
 section div{
   width: 50%
-  padding-top: 50px;
+  
 }
 .sectionmain{
   width: 1200px; margin: 0 auto;
@@ -110,6 +110,6 @@ section p{
      color: rgba(0,0,0,.4);
 }
 .divclass4{
-  
+
 
 }
