@@ -97,3 +97,14 @@ section{
 section div{
   width: 50%
 }
+.sectionmain{
+  width: 1000px; margin: 0 auto;
+}
+section p{
+    margin-top: 8px;
+     font-family: 'PT Sans Caption',
+     sans-serif;
+     font-size: 22px;
+     line-height: 32px;
+     color: rgba(0,0,0,.4);
+}
