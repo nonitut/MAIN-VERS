@@ -102,6 +102,11 @@ section div{
 .sectionmain{
   width: 1200px; margin: 0 auto;
 }
+section h1{
+  margin-top: 8px;
+  font-family: 'PT Sans Caption',
+  sans-serif;
+}
 section p{
     margin-top: 8px;
      font-family: 'PT Sans Caption',
