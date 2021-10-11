@@ -94,18 +94,22 @@ section{
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 section div{
-  width: 50%
+  width: 45%
+  padding-bottom: 20px;
 
 }
 .sectionmain{
-  width: 1200px; margin: 0 auto;
+  width: 1400px; margin: 0 auto;
 }
 section h1{
   margin-top: 8px;
   font-family: 'PT Sans Caption',
   sans-serif;
+  font-size: 30px;
+  color: #33333;
 }
 section p{
     margin-top: 8px;
@@ -114,4 +118,37 @@ section p{
      font-size: 22px;
      line-height: 32px;
      color: rgba(0,0,0,.4);
+}
+
+section hr{
+  width: 1440;
+}
+.button {
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      color: black;
+      padding: 5px ;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition: 0.2s;
+      }
+      .button2 {
+            background-color: #000000;
+            color: white;
+            padding: 5px ;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 5px;
+            }
+.divbutton{
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  margin-bottom: 60px;
 }
