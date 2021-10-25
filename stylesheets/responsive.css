@@ -1,0 +1,5 @@
+@media all and (max-width: 1340px) {
+	.sidebar {
+		display: none;
+	}
+}
