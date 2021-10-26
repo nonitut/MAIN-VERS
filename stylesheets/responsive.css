@@ -8,3 +8,6 @@
  	article img { width: 100%; }
  }/* при размере в 1020px картинка начинает занимать всю ширину экрана
  Элемент <article>представляет собой независимый фрагмент веб-страницы*/
+ @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+ article > * { width: calc(100% - 40px); }
+ }/*  */
