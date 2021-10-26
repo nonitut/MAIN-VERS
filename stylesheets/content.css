@@ -2,6 +2,25 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 a { color: inherit;
 }
+article * { width: 700px; margin: 0 auto;}
+article h1, article h2, article h3 { font-family: 'PT Sans' }
+article h1 { margin-top: 67px; font-size: 38px; line-heic}
+article h1 + p { margin-top: 8px; font-family: 'PT Sans'cursive;}
+article h1 + p + p {{ margin-top: 30px;}}
+article h2 { margin-top: 43px;
+   font-size: 32px;}
+
+article h2 + blockquote { margin-top: 7px;}
+article h3 { margin-top: 36px;
+  font-size: 28px;}
+article h3 + blockquote { margin-top: 6px;}
+article p, blockquote, li { margin-top: 29px; font-size:}
+article blockquote { font-style: italic;
+position: relative;}
+article blockquote::before {
+content: "";
+width: 3px;
+height: 100%.}
 
 h1, h2, h3, p, ul,ol, blockquote, div, img, hr { width: 700px; margin: 0 auto;
 }
@@ -134,7 +153,7 @@ section hr{
       font-size: 16px;
       margin: 4px 2px;
       transition: 0.2s;
-      
+
       }
       .button2 {
             background-color: #000000;
