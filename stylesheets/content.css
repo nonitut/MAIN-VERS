@@ -2,7 +2,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 a { color: inherit;
 }
-article * { width: 700px; margin: 0 auto;}
+article > * { width: 700px; margin: 0 auto;}
 article h1, article h2, article h3 { font-family: 'PT Sans' }
 article h1 { margin-top: 67px; font-size: 38px; line-heic}
 article h1 + p { margin-top: 8px; font-family: 'PT Sans'cursive;}
