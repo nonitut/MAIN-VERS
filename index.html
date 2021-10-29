@@ -7,24 +7,8 @@
     <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
     <!--<link rel="stylesheets" href="reset.css">-->
     <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
-    <script type="text/javascript">
-    $(function() {
-      $('.sidebar a').each(function() {
-        $(this).on('click', function(e) {
-          e.preventDefault();
-          var scrollTo = $(this).attr('href');
-          var whitespace = scrollTo == '#s1' ? 70 : 30;
-          $('html,body').animate({
-            scrollTop: $(scrollTo).offset().top - whitespace
-          }, 1000);
-        });
-      });
-      });
-  </script>
-    <!-- и выполни функцию -->  <!-- Найди ссылку находящуюся в классе сайтбар -->
-    <!-- при клике на эллемент выполни функцию -->
-    <!-- Переменная куда скролим для этого атрибута посмотри href -->
-    <!-- Переменная  -->
+    <script src="javascripts/sidebar.js" charset="utf-8"></script>
+
     <link rel="icon" href="img/favicon.ico" type="favicon/x-icon">
     <link rel="icon" href="/img/favicon.ico" type="favicon/vnd.microsoft.icon">
     <link rel="icon" href="img/favicon.png" type="favicon/png">
