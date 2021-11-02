@@ -4,27 +4,23 @@
 	}/*  */
 }/*Мы написали медиа запрос, для всех размеров,
  и сказали ему скрывать sidebar при максимальной ширине в 1340px */
- @media all and (max-width: 1020px) {
- 	article > img { width: 100%; }
+
+ @media all and (min-width: 1020px) {
+	 img { width: 700px;
+	 display: block;
+	 }
  }/* при размере в 1020px картинка начинает занимать всю ширину экрана
  Элемент <article>представляет собой независимый фрагмент веб-страницы*/
+
  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
  article > * { width: calc(100% - 40px); }
- }/*  */
+ img { width: 700px;
+ display: block;
+}/*  */
  @media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
- body { min-width: 320px; }
- article > * { width: calc(100% - 40px); }
+ body { min-width: 250px; }
+ article > * { width: 100%}
  }/* для вертикально расположенного телефона */
  @media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
- body { min-width: 320px; }
- div > * { width: calc(100% - 40px); }
- article p{
-	 font-size: 12px;
- }
- div p{
-
- }
- article img{
-	 
- }
- }
+ body { mix-width: 100%; }}
+article > * { width: 100%}
