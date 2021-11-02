@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&amp;subset=cyrillic');
 @import "layout.css"; /* макет  */
 @import "content.css"; /* контент / содержимое  */
-@import "sidebar.css"; /* панель - боковая / верхней  */
+/*@import "sidebar.css"; /* панель - боковая / верхней  */
 /* @import "filename.css";  */
 @import "nav.css";
 @import "responsive.css";/* адаптивность */
+@import "index.css";
